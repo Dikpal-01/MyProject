@@ -22,9 +22,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Team A"
+        android:text="@string/team_a"
         android:layout_marginTop="16dp"
         android:textSize="35sp"
+        android:padding="@dimen/padding_2"
         android:textColor="@color/colorPrimary"
         android:fontFamily="sans-serif"
         />
@@ -40,7 +41,7 @@
         />
     <Button
         android:id="@+id/team_a_3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+3 Points"
         android:layout_marginTop="24dp"
@@ -48,7 +49,7 @@
         />
     <Button
         android:id="@+id/team_a_2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+2 Points"
         android:layout_marginTop="8dp"
@@ -56,7 +57,7 @@
         />
     <Button
         android:id="@+id/team_a_1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+1 Points"
         android:layout_marginTop="8dp"
@@ -97,7 +98,7 @@
             />
         <Button
             android:id="@+id/team_b_3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+3 Points"
             android:layout_marginTop="24dp"
@@ -106,15 +107,19 @@
             />
         <Button
             android:id="@+id/team_b_2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+2 Points"
             android:layout_marginTop="8dp"
             android:onClick="updateForTeamBPoint2"
             />
         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
             android:id="@+id/team_b_1"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="+1 Points"
